@@ -482,10 +482,10 @@ pub const LOCK_EX: ::c_int = 2;
 pub const LOCK_NB: ::c_int = 4;
 pub const LOCK_UN: ::c_int = 8;
 
-pub const SA_NODEFER: ::c_int = 0x40000000;
-pub const SA_RESETHAND: ::c_int = 0x80000000;
-pub const SA_RESTART: ::c_int = 0x10000000;
-pub const SA_NOCLDSTOP: ::c_int = 0x00000001;
+pub const SA_NODEFER: ::c_ulong = 0x40000000;
+pub const SA_RESETHAND: ::c_ulong = 0x80000000;
+pub const SA_RESTART: ::c_ulong = 0x10000000;
+pub const SA_NOCLDSTOP: ::c_ulong = 0x00000001;
 
 pub const SS_ONSTACK: ::c_int = 1;
 pub const SS_DISABLE: ::c_int = 2;
